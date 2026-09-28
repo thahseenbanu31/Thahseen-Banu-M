@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #ffe4ec;
+    padding: 50px 20px;
+    border-bottom: 3px solid #f7b6c9;
+}
+
+header h1 {
+    color: #c04f70;
+    font-size: 38px;
+    margin: 0 0 10px 0;
+}
+
+header p {
+    margin: 5px;
+}
+
+/* Navigation */
+nav {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+nav a {
+    color: #c04f70;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 12px;
+}
+
+nav a:hover {
+    color: #a83d5e;
+}
+
+/* Each Section */
+section {
+    width: 75%;
+    max-width: 750px;
+    margin: 35px auto;
+    padding: 35px;
+    background-color: #fff0f5;
+    border: 2px solid #f7b6c9;
+    border-radius: 18px;
+    box-shadow: 0 5px 15px rgba(200, 100, 130, 0.15);
+}
+
+/* Section Title */
+section h2 {
+    color: #c04f70;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+/* Content inside sections */
+section h3 {
+    color: #d45f80;
+    margin-top: 20px;
+}
+
+section p {
+    max-width: 650px;
+    margin: 10px auto;
+}
+
+/* Lists */
+ul {
+    display: inline-block;
+    text-align: left;
+    margin: 10px auto;
+}
+
+/* Contact Links */
+section a {
+    color: #c04f70;
+}
+
+/* Footer */
+footer {
+    background-color: #ffe4ec;
+    padding: 25px;
+    margin-top: 40px;
+}
